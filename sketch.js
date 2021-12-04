@@ -1,20 +1,26 @@
 
-var trex ,trex_running;
+// variaveis aqui
+
+
 function preload(){
-  trex_running = loadAnimation("trex1.png", "trex3.png", "trex4.png");
+ //carregamento de imagens
 
 }
 
 function setup(){
   createCanvas(600,200)
   
-  //crie um sprite de trex
-  trex = createSprite(50,160,20,50);
-  trex.addAnimation("running", trex_running);
+  //criar sprites
+  
 }
 
 function draw(){
   background("white")
+  
+  
+  
+  
+  
   drawSprites();
 
 }
